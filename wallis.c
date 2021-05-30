@@ -24,7 +24,6 @@ int main(void) {
   }
 }
 
-// function definition
 float wallis_pi(int n)
 { float max=4/3; 
    for (int i=1;i<=n;i++)
@@ -33,4 +32,5 @@ float wallis_pi(int n)
    float pi=max*2;
    //printf (" value of pi is %f \n",pi);
    return pi;
+   }
    }
