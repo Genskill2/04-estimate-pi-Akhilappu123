@@ -1,7 +1,9 @@
+#include <cs50.h>
 #include <assert.h>
 #include <stdlib.h>
 #include <stdio.h>
 #include <math.h>
+
 
 float wallis_pi(int);
 
@@ -24,13 +26,13 @@ int main(void) {
   }
 }
 
+
 float wallis_pi(int n)
 { float max=4/3; 
    for (int i=1;i<=n;i++)
    
    {  max=max*4*i*i/(4*i*i-1);}
    float pi=max*2;
-   
+   //printf (" value of pi is %f \n",pi);
    return pi;
-   }
    }
