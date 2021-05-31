@@ -30,7 +30,7 @@ float wallis_pi(int n)
    
    {  max=max*4*i*i/(4*i*i-1);}
    float pi=max*2;
-   //printf (" value of pi is %f \n",pi);
+   
    return pi;
    }
    }
