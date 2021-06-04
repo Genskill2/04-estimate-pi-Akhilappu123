@@ -39,5 +39,17 @@ int main(void) {
   }
 }
 
-
+float mc_pi(int n) {
+  int circle=0; int squre=0;
+for ( int i=0;i<=n;i++) {
+   float x=random();
+  float y=random();
+  float c=(x*x)+(y*y);
+  if (c<=1)
+    circle++;
+    else squre++; }   
+    squre=squre+circle;
+    
+    float pi= 4*(float)circle/squre;
+    return pi;  }
 
